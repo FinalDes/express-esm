@@ -1,3 +1,5 @@
+/* tslint:disable:no-console */
+
 import express = require('express');
 
 const app = express();
