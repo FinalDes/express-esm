@@ -10,8 +10,7 @@
     "tslint": "tslint -p . 'src/**/*.ts'",
     "start": "node src/index.js",
     "start:ecs": "node --experimental-modules src/index.mjs",
-    "start:ts": "ts-node -P tsconfig.json src/index.ts",
-    "start:ts-es6": "ts-node -P tsconfig.es6.json src/index.ts"
+    "start:ts": "ts-node -P tsconfig.json src/index.ts"
   },
   "dependencies": {
     "express": "^4.16.4"
