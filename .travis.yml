@@ -2,3 +2,9 @@ language: node_js
 node_js:
   - "10"
   - "11"
+install:
+  - yarn install
+  - yarn eslint
+  - yarn tslint
+cache:
+  yarn: true
