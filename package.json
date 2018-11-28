@@ -1,0 +1,15 @@
+{
+  "name": "express-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "main.js",
+  "author": "Alex Alonso <alex4551@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:ecs":"node --experimental-modules src/index.mjs"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
